@@ -1,8 +1,13 @@
 const questionsBank = [
   {
-    question: "...",
-    options: ["A", "B", "C", "D"],
-    answer: 0
+    question: "¿Texto de la pregunta?",
+    options: [
+      "Alternativa A",
+      "Alternativa B",
+      "Alternativa C",
+      "Alternativa D"
+    ],
+    answer: 2 // ← índice de la opción correcta
   },
   ...
 ];
